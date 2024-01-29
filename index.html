@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass EXI012-Password secured till death!!</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+    <div class="logo">PassX</div>
+    <ul>
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Contact</li>
+    <li>FAQs</li>
+    </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>We're excited to have you here. Your digital life contains a myriad of passwords, and we know how
+         cumbersome it can be to manage them all. That's why we're here to make it simple for you..</p>
+        <h2>Your Passwords <span id="alert">(Copied!)</span></h2>
+        <table>
+        <tr>
+        <th>Website</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Delete</th>
+        </tr>
+        <!-- <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+        </tr> -->
+        </table>
+        <h2>Add a password</h2>
+        <form action="/submit" method="post">
+        <label for="website">Website:</label>
+        <input type="text" id="website" name="website" required>
+        <br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="Password">Password:</label>
+        <input type="Password" id="Password" name="Password" placeholder="Enter your password here" required>
+        <br><br>
+        <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="pass.js"></script>
+</body>
+</html>
